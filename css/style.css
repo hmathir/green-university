@@ -1,0 +1,33 @@
+/* Image Overlay */
+.slider-image-overley:after {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:#000;
+    opacity:0.5;
+}
+
+/* Custom Button */
+.custom-btn-color{
+    background-color: #289BDE;
+    color: #FFFFFF;
+}
+.custom-btn-color:hover{
+    background-color: #FFFFFF;
+    color: #289BDE;
+}
+
+
+/* Section Margin */
+.sectionY-margin{
+    margin-top: 130px;
+}
+@media only screen and (min-width: 352px) and (max-width: 991px) {
+    .sectionY-margin{
+        margin-top: 0px;
+    }
+  }
