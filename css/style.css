@@ -1,15 +1,18 @@
-/* Image Overlay */
-.slider-image-overley:after {
-    content:"";
-    display:block;
-    position:absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    background:#000;
-    opacity:0.5;
+
+/* Overlay For Slider */
+.overlay{
+    filter: brightness(50%);
 }
+
+/* Section Margin */
+.sectionY-margin{
+    margin-top: 100px;
+}
+@media only screen and (min-width: 352px) and (max-width: 991px) {
+    .sectionY-margin{
+        margin-top: 0px;
+    }
+  }
 
 /* Custom Button */
 .custom-btn-color{
@@ -21,13 +24,24 @@
     color: #289BDE;
 }
 
-
-/* Section Margin */
-.sectionY-margin{
+/* Custom Explore Zone CSS */
+.explore-zone-bg{
+    background-color: #F4FAFD;
+}
+.common-margin{
     margin-top: 130px;
 }
-@media only screen and (min-width: 352px) and (max-width: 991px) {
-    .sectionY-margin{
-        margin-top: 0px;
-    }
-  }
+
+/* Admit Now Section Css */
+.admit-sec-bg{
+background-color: #289BDE;
+}
+.custom-admit-btn-color{
+    background-color: #FFFFFF;
+    color: #289BDE;
+}
+.custom-admit-btn-color:hover{
+    background-color: #289BDE;
+    color: #FFFFFF;
+}
+
